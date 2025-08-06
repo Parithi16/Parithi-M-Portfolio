@@ -22,24 +22,13 @@ broaden my horizons.
                 <a href="#contact" className="cosmic-button">
                     Get in Touch
                 </a>
-                <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                <a href="public/projects/Parithi - Resume.pdf" target="*" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                     Download CV
                 </a>
                 </div>
             </div>
             <div className="grid grid-cols-1 gap-6">
-                <div className="gradient-border p-6 card-hover">
-                    <div className="flex items-start gap-4">
-                        <div className="p-3 rounded-full bg-primary/10">
-                        <Code className="h-6 w-6 text-primary"/>
-                        </div>
-                        <div className="text-left">
-                            <h4 className="font-semibold text-lg">Web Developer</h4>
-                            <p className="text-muted-foreground"> Develop Responsive Websites using modern frameworks</p>
-
-                        </div>
-                    </div>
-                </div>
+                
                   <div className="gradient-border p-6 card-hover">
                     <div className="flex items-start gap-4">
                         <div className="p-3 rounded-full bg-primary/10">
@@ -58,8 +47,20 @@ broaden my horizons.
                         <Briefcase className="h-6 w-6 text-primary"/>
                         </div>
                          <div className="text-left">
-                            <h4 className="font-semibold text-lg">Project Management</h4>
-                            <p className="text-muted-foreground"> Leading projects from conception to completion with agile methodologies</p>
+                            <h4 className="font-semibold text-lg">Data Analytics Enthusiast</h4>
+                            <p className="text-muted-foreground"> Passionate about uncovering insights from data to drive decisions and solve real-world problems. </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="gradient-border p-6 card-hover">
+                    <div className="flex items-start gap-4">
+                        <div className="p-3 rounded-full bg-primary/10">
+                        <Code className="h-6 w-6 text-primary"/>
+                        </div>
+                        <div className="text-left">
+                            <h4 className="font-semibold text-lg">Web Developer</h4>
+                            <p className="text-muted-foreground"> Develop Responsive Websites using modern frameworks</p>
 
                         </div>
                     </div>

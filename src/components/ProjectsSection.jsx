@@ -4,7 +4,7 @@ const projects=[
 {
     id:1,
     title:"Context Aware Multi Stage Temporal Video Grounding",
-    description:"Zero Shot VG framework retrieve semantically relevant video moments purely based on open-vocabulary concepts.",
+    description:"Developed a zero-shot video grounding system using CLIP to temporally localize relevant video segments based on natural language queries.",
     tags:["machine learning","image processing"],
     image:"/projects/VideoGrounding.png",
     demoUrl:"#",
@@ -13,20 +13,38 @@ const projects=[
 {
     id:2,
     title:"E-Certificate Verification and Validation usinng BlockChain",
-    description:"User friendly app and website to ensure the authenticity of the e-certificate",
+    description:"Built a decentralized application using Ethereum and IPFS for secure certificate generation and tamper-proof validation.",
     tags:["blockchain","react"],
     image:"/projects/Trustify.png",
-    demoUrl:"#",
-    githubUrl:"#",
+    demoUrl:"https://trustify-cip.vercel.app/",
+    githubUrl:"https://github.com/Parithi16/trustify-master",
 },
 {
     id:3,
-    title:"Crop Disease Detection and Crop Recommendation System",
-    description:"User friendly website to help farmers by identifying suitable crop and to identify the disease that affected the crop",
+    title:"Crop Recommendation and Disease Detection System",
+    description:"Created a web platform that recommends crops based on soil data and detects plant diseases through AI-powered image classification.",
     tags:["machine learning","image processing"],
     image:"/projects/Digifarming.png",
     demoUrl:"#",
     githubUrl:"#",
+},
+{
+    id:4,
+    title:"Intra College Social Networking Platform",
+    description:"Designed a college social platform for students and alumni to share experiences, plan academic tours, and express thoughts anonymously.",
+    tags:["Html/CSS/JS","Node.js","MongoDB"],
+    image:"/projects/CEG Confum.png",
+    demoUrl:"#",
+    githubUrl:"https://github.com/naren-ngk/CEG-Confum",
+},
+{
+    id:5,
+    title:"Expense Tracker - PyQt6 Desktop App",
+    description:"A lightweight and intuitive expense tracking desktop application built using Python and PyQt6, with SQLite for local data storage.",
+    tags:["Python","PyQt6","SQlite"],
+    image:"/projects/ListTable.png",
+    demoUrl:"#",
+    githubUrl:"https://github.com/Parithi16/Expense-Tracker",
 }
 ]
 export const ProjectsSection=()=>{

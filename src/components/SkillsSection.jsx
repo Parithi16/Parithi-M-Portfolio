@@ -7,12 +7,19 @@ const skills = [
     {name : "React" ,level:90,category:"frontend"},
     {name : "Tailwind CSS" ,level:85,category:"frontend"},
 
-    {name : "Node.js" ,level:80,category:"backend"},
+    {name : "Python" ,level:90,category:"backend"},
+    {name : "C++" ,level:90,category:"backend"},
+    {name : "Java" ,level:75,category:"backend"},
+    {name : ".Net" ,level:50,category:"backend"},
+    {name : "MongoDB" ,level:80,category:"backend"},
     {name : "MongoDB" ,level:80,category:"backend"},
    
     {name : "Git/GitHub" ,level:90,category:"tools"},
     {name : "Figma" ,level:85,category:"tools"},
-    {name : "VS Code" ,level:95,category:"tools"}
+    {name : "VS Code" ,level:95,category:"tools"},
+    {name : "Jupyter" ,level:95,category:"tools"},
+    {name : "Colab" ,level:95,category:"tools"},
+    {name : "PowerBi" ,level:50,category:"tools"},
 
 ]
 

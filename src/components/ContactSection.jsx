@@ -7,17 +7,60 @@ import { useState } from "react"
 export const ContactSection =()=> {
     const {toast}=useToast()
     const [isSubmitting,setIsSubmitting]=useState(false)
-    const handleSubmit =(e)=>{
+    const handleSubmit = async(e)=>{
         e.preventDefault()
         setIsSubmitting(true)
-        setTimeout(()=>{
-        toast({ 
+        const formData =new FormData(e.target)
+        const data={
+            name: formData.get("name"),
+            email: formData.get("email"),
+            message: formData.get("message")
+        }
+
+        try {
+            const res = await fetch("http://localhost:3001/contact",{
+                method:"POST",
+                headers:{
+
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify(data)
+            })
+
+            if(!res.ok) throw new Error("Failed to Send")
+            
+           toast({
+            title: "Message sent!",
+            description: "Thanks, I’ll get back to you soon.",
+            })
+
+
+             setTimeout(()=>{
+            toast({ 
             title:"Message sent!",
             description:"Thank you, I'll get back to you soon"
         })
+    },300)
+            e.target.reset()
+
+        } catch(err){
+            console.error(err)
+            toast({
+            title: "Something went wrong",
+            description: "Submission failed. Please try again.",
+            variant: "destructive", // optional
+            })
+
+        }finally{
+
+            setTimeout(()=>{
+        
         setIsSubmitting(false)
         },1500)
     }  
+        }
+        
+        
     return <section id="contact" className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
