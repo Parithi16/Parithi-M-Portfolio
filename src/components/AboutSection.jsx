@@ -22,7 +22,7 @@ broaden my horizons.
                 <a href="#contact" className="cosmic-button">
                     Get in Touch
                 </a>
-                <a href="public/projects/Parithi - Resume.pdf" target="*" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                <a href="/projects/Parithi - Resume.pdf" target="*" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                     Download CV
                 </a>
                 </div>
